@@ -1,0 +1,2 @@
+sudo docker run --rm --mount "type=bind,source=$(pwd),target=/src" test_slack_bot black test_slack_bot.py
+sudo docker run --rm --mount "type=bind,source=$(pwd),target=/src" test_slack_bot bandit test_slack_bot.py
